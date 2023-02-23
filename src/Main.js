@@ -6,12 +6,24 @@ export default class FullPageExample extends React.Component {
         return (
             <FullPage controls>
                 <Slide>
-                    <h1>Inner slide content</h1>
+                    <figure className='mainimg'>
+                        <img src={process.env.PUBLIC_URL + '/img/main01.jpg'} alt="" />
+                    </figure>
                 </Slide>
                 <Slide>
-                    <h1>Another slide content</h1>
+                    <figure className='mainimg'>
+                        <a href=""><img src={process.env.PUBLIC_URL + '/img/main02.jpg'} alt="" />
+                        </a>
+                    </figure>
+                </Slide>
+                <Slide>
+                    <figure className='mainimg'>
+                        <a href=""><img src={process.env.PUBLIC_URL + '/img/main03.jpg'} alt="" />
+                        </a>
+                    </figure>
                 </Slide>
             </FullPage>
         );
     }
 }
+

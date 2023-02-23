@@ -5,7 +5,7 @@ import './reset.css'
 function Footer() {
     return (
         <footer className="Footer">
-
+            푸ㅜㅜㅜㅜㅜ터ㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓ
         </footer>
     )
 }
